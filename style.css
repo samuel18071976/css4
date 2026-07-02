@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    padding: 10px 30px;
+    gap: 20px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: blue;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url(computer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero span{
+    color: blue;
+}
+
+.welcome{
+    color: red;
+    font-size: 20px;
+}
+
+
+
